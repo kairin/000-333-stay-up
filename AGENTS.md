@@ -51,3 +51,10 @@ A future observer must make no power request, simulate no input, or change a
 power or locking setting. A working Rust probe does not prove input, idle, lock,
 sleep, or helper behavior. Keep those unknowns in the historical
 [observer proposal](docs/stay-watch-plan.md).
+
+## Git identity
+
+Commit as `Mister K <678459+kairin@users.noreply.github.com>`. This is the
+public GitHub name and the GitHub noreply email. Do not commit with another
+name or with a personal email address. Check with `git config user.name` and
+`git config user.email` before you commit.
