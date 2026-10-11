@@ -15,7 +15,7 @@ This plan controls presentation work. The historical
 - Keep one Rust window with status, helper output, and the heartbeat log.
 - Keep both native text panes read-only, selectable, scrollable, and resizable.
 - Do not add capture, simulated input, power requests, startup entries, or policy changes.
-- Do not add user screenshots or videos to the repository.
+- Keep user-supplied media in documentation only.
 
 A presentation change must not alter process ownership, launch, shutdown, or
 cleanup. A change to those areas needs separate regression checks.
