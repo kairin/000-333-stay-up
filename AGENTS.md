@@ -36,7 +36,7 @@ or select another output directory.
 
 ## Application scope
 
-Commit `fed8eb5` (`feat: add native output panes`) is the accepted baseline.
+Commit `3b1b033` (`feat: add native output panes`) is the accepted baseline.
 Preserve the [baseline contract](docs/native-output-panes.md#accepted-working-baseline).
 
 The [visual refresh plan](docs/visual-refresh-plan.md) controls current work.
