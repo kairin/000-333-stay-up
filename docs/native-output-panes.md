@@ -4,7 +4,7 @@
 
 On 20 September 2026, the user reported that the implementation was working
 and explicitly confirmed it as the baseline. The accepted implementation is
-commit `fed8eb5` (`feat: add native output panes`).
+commit `3b1b033` (`feat: add native output panes`).
 
 Future changes must preserve the single Rust window, session status, adjustable
 read-only output/log panes, and suppression of separate Python console windows.

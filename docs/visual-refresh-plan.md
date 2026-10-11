@@ -1,6 +1,6 @@
 # Visual refresh plan
 
-Commit `fed8eb5` (`feat: add native output panes`) is the accepted working
+Commit `3b1b033` (`feat: add native output panes`) is the accepted working
 baseline. The user accepted it on 20 September 2026. Preserve the
 [baseline contract](native-output-panes.md#accepted-working-baseline).
 
@@ -15,7 +15,7 @@ This plan controls presentation work. The historical
 - Keep one Rust window with status, helper output, and the heartbeat log.
 - Keep both native text panes read-only, selectable, scrollable, and resizable.
 - Do not add capture, simulated input, power requests, startup entries, or policy changes.
-- Keep user-supplied media in documentation only.
+- Do not add user screenshots or videos to the repository.
 
 A presentation change must not alter process ownership, launch, shutdown, or
 cleanup. A change to those areas needs separate regression checks.

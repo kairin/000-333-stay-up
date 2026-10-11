@@ -64,16 +64,11 @@ pending idle, sleep, and lock checks are in the
 [observation log](docs/observations.md).
 
 The visual refresh preserves the accepted native output panes from commit
-`fed8eb5`. Screenshot logging and capture tests are outside the current scope.
+`3b1b033`. Screenshot logging and capture tests are outside the current scope.
 See the [visual plan](docs/visual-refresh-plan.md) and
 [baseline contract](docs/native-output-panes.md#accepted-working-baseline).
 
-## Issue context and design history
-
-The uploaded issue media records the problem that shaped this project. It shows
-the helper beside the Rust window, terminal windows, idle timers, and one
-Windows sign-in screen. The media shows context only. It does not prove that
-the helper prevented lock or sleep.
+## Design history
 
 ### Initial plan
 
@@ -89,32 +84,10 @@ helpers. The Rust window shows status, helper output, the shared heartbeat log,
 and input idle time. It owns shutdown and keeps the output panes read-only.
 Screenshot and capture logging from the first plan are withdrawn.
 
-### Issue images and videos
-
-The images and videos remain linked to their original GitHub uploads. See the
-[media record](docs/issue-media.md) for descriptions and limits.
-
-![Rust status window with an idle timer and terminal windows](https://github.com/user-attachments/assets/48a572b0-e9d2-4589-bc20-7dafa59edd47)
-
-![Rust status window showing an idle timer](https://github.com/user-attachments/assets/2d9cc158-3ecc-4c20-b65f-293c49ce1791)
-
-![Rust status window beside terminal windows](https://github.com/user-attachments/assets/699f84fc-6d48-4b42-a56e-fbd2f6d210e0)
-
-![Windows sign-in screen with an RSA SecurID prompt](https://github.com/user-attachments/assets/9dd17192-d6f7-4555-9843-dc5430a82719)
-
-- [Issue #6 video 1, about 20 seconds](https://github.com/user-attachments/assets/026dbf2b-b647-48ac-8ce2-76328c979dd1)
-- [Issue #6 video 2, about 8 seconds](https://github.com/user-attachments/assets/f9bf4b8c-7cc1-4d44-a729-5eaa1bce87b7)
-- [Issue #7 video 1, about 9 seconds](https://github.com/user-attachments/assets/cba1ad29-38b9-4b74-ab3a-e5758a88e1d9)
-- [Issue #7 video 2, about 8 seconds](https://github.com/user-attachments/assets/1630e4a0-b3f7-4a00-ab97-dea76c8163ca)
-
-The images and videos are user-submitted evidence. They are not controlled
-test results. Video playback and audio were not reviewed in this repository.
-
 ## Privacy
 
-The repository includes the user-submitted issue media by design. It may show
-desktop, account, or sign-in context. The local dashboard preview is a separate
-repository asset.
+The repository contains no user screenshots, videos, or personal data. The
+dashboard banner in `docs/assets/` is a generated preview.
 
 ### Runtime data and portability
 

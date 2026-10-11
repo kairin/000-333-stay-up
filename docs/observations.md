@@ -88,7 +88,7 @@ python -B -m unittest tools.test_feasibility_probes -v
 At 14:21 local time, the command returned zero and printed
 `Ran 14 tests in 5.950s` and `OK`. It did not open a capture window.
 
-## Visual-refresh planning after issues #6 and #7
+## Visual-refresh planning
 
 The user reported that the project worked and requested visual improvements.
 This report was not a controlled idle or power test. The plan removed
@@ -189,7 +189,7 @@ not exercised live.
 
 ## 20 September 2026: User acceptance of the working baseline
 
-The user reported that commit `fed8eb5` (`feat: add native output panes`)
+The user reported that commit `3b1b033` (`feat: add native output panes`)
 worked and accepted it as the baseline. It includes one Rust window, a status
 dashboard, adjustable read-only panes, and suppressed Python console windows.
 
