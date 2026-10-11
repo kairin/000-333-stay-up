@@ -66,6 +66,7 @@ not code to port. This review did not repeat media or binary-hash analysis.
 | [Observer proposal](stay-watch-plan.md) | Historical only. Add no observer feature. |
 | [Acceptance vectors](stay-watch-acceptance.md) | Historical, unexecuted observer cases. Do not import withdrawn capture gates. |
 | [Research record](research.md) | Keep provenance, policy limits, and vendor notices. |
+| [Issue media](issue-media.md) | Context only. Add no capture work. |
 | [Task-ranker guide](../scripts/task-ranker/README.md) | Preserve score, cache, export, privacy, and board limits if the tool remains. |
 | [Earlier migration review](rust-only-migration-review.md) | Keep candidate comparison and immutable research evidence. This plan adds ordered work and exit checks. |
 
